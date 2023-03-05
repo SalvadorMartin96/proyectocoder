@@ -1,0 +1,65 @@
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: $background-color_2;
+    border-top: #444444 2px solid;
+    color: $color_2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+form {
+    ul {
+        li {
+            color: $color_2;
+        }
+    }
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+
+    input {
+        width: 90%;
+        height: 30px;
+        margin: 0.5rem;
+    }
+
+    button {
+        padding: 0.5em 1em;
+        margin: auto;
+        display: block;
+        background: white;
+        cursor: pointer;
+    }
+}
+
+textarea {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+.contactotit {
+    text-align: center;
+}
+
+.botonenviar {
+    text-align: center;
+}
